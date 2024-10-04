@@ -28,7 +28,6 @@ Para instalar y configurar el backend del proyecto, sigue estos pasos:
 2. Ejecuta el servidor de Node.js:
    ```
    node app.js
-  ```
 
 ## Funcionalidades Principales
 
