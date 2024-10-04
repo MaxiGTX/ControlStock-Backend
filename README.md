@@ -2,6 +2,33 @@
 
 ¡Bienvenido a ControlStock! Esta aplicación está diseñada para ayudarte a gestionar tus productos de manera eficiente y mantener tu inventario siempre actualizado.
 
+## Instalación del Backend
+
+Para instalar y configurar el backend del proyecto, sigue estos pasos:
+
+1 **Clona el repositorio**:
+```
+   git clone https://github.com/tu-usuario/ControlStock-Backend.git
+```
+2 **Ingresa al directorio del proyecto**:
+```
+  cd ControlStock-Backend
+```
+3 **Instala las dependencias**:
+```
+  npm install
+```
+## Uso
+1. En la raíz del proyecto, crea un archivo .env y configura las variables de entorno necesarias con el env.template de ejemplo:
+```
+  JWT_SECRET= d1ec1nuev9devbd
+  MONGO_URL=mongodb+srv://MaximusGT:EZMrN6byRNPQGgtG@controlstock.sazai.mongodb.net/
+  PORT: 5000
+```
+2. Ejecuta el servidor de Node.js:
+   ```
+   node app.js
+  ```
 
 ## Funcionalidades Principales
 
